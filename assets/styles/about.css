@@ -1,0 +1,46 @@
+.banner{
+    height: 80vh;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bflex{
+    text-align: center;
+}
+.banner .cb{
+    padding: 12px;
+}
+.banner .cbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .cbtn-text {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.65px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #93CE20;
+    border-radius: 2px 2px 2px 2px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.banner .cbtn-text:hover {
+    background-color: #024731;
+
+}
+.banner h1{
+    font-size: 40px;
+}
